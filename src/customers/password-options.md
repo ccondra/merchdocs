@@ -2,7 +2,7 @@
 title: Password Options
 ---
 
-The customer password options determine the level of security that is used for password reset requests, the email templates that are used for customer notification, and the lifetime of the password recovery link. You can allow customers to change their own passwords or require that only store administrators can do so
+The customer password options determine the level of security that is used for password reset requests, the email templates that are used for customer notification, and the lifetime of the password recovery link. You can allow customers to change their own passwords or require that only store administrators can do so.
 
 ## Configure customer password options
 
@@ -17,11 +17,13 @@ The customer password options determine the level of security that is used for p
 
 1. Set the **Password Reset Protection Type** to the method you want to use for checking password reset requests:
 
+   |--- |--- |
    | By IP and Email | Check for previous attempts to reset password for specific email or from specific IP. |
    | By IP | Check for previous attempts to reset password from specific IP. |
    | By Email | Check for previous attempts to reset password for specific email. |
    | None | Protection disabled (no limits for resetting password). |
-   **Max Number of Password Reset Requests** and **Min Time Between Password Reset Requests** are calculated based on this configuration.
+
+   The **Max Number of Password Reset Requests** and **Min Time Between Password Reset Requests** are calculated based on this configuration.
 
 1. To limit the number of password reset requests sent per hour, do the following:
 
